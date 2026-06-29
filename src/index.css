@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #E8FF00;
+  --color-secondary: #FF1CF7;
+  --color-background: #09090B;
+  --color-surface: #15151B;
+  --color-card: #15151B;
+  --color-border: #27272F;
+  --color-hover: #1E1E24;
+  --color-text-main: #F0EDE8;
+  --color-text-muted: #8E9299;
+  
+  --color-success: #10B981;
+  --color-warning: #FACC15;
+  --color-danger: #EF4444;
+  --color-info: #3B82F6;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.05em;
+}
+
+.font-number {
+  font-family: var(--font-mono);
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
