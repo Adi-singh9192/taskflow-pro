@@ -1,9 +1,8 @@
-```markdown
 # 🚀 TaskFlow Pro
 
 > **Complete Goals. Earn Rewards. Stay Motivated.**
 
-An AI-powered Productivity & Rewards Platform built using the MERN Stack that transforms traditional task management into an engaging and rewarding experience.
+An AI-powered Productivity & Rewards Platform built using the Full-Stack that transforms traditional task management into an engaging and rewarding experience.
 
 Unlike conventional productivity tools, **TaskFlow Pro** motivates users to finish their work through AI-powered planning, gamification, achievement systems, and reward-based incentives.
 
@@ -12,6 +11,7 @@ Unlike conventional productivity tools, **TaskFlow Pro** motivates users to fini
 # 🌐 Live Demo
 
 Frontend: taskflow-pro-dusky-five.vercel.app
+Backend: https://taskflow-api-8dbc.onrender.com
 
 
 
@@ -19,16 +19,18 @@ Frontend: taskflow-pro-dusky-five.vercel.app
 
 # 📸 Preview
 
-> Add screenshots after deployment
+<img width="918" height="804" alt="image" src="https://github.com/user-attachments/assets/36b60d3b-6fab-43d9-af21-04729f04f589" />
 
-- Landing Page
-- Login
-- Dashboard
-- Kanban Board
-- AI Assistant
-- Analytics
-- Rewards Dashboard
-- Mobile View
+<img width="1918" height="969" alt="Screenshot from 2026-07-08 10-13-45" src="https://github.com/user-attachments/assets/c06ccbc7-1c2f-4480-ab19-67f4d1f26c45" />
+
+<img width="1918" height="969" alt="Screenshot from 2026-07-08 10-14-35" src="https://github.com/user-attachments/assets/52b00c5e-bc09-4636-9cec-8e227ac2da8f" />
+
+<img width="1918" height="969" alt="Screenshot from 2026-07-08 10-14-52" src="https://github.com/user-attachments/assets/212593c6-9870-457a-8e8e-fab76d825656" />
+
+<img width="1918" height="969" alt="Screenshot from 2026-07-08 10-15-02" src="https://github.com/user-attachments/assets/d303b8bb-39c5-4638-8587-3cc21f6deb5e" />
+
+<img width="1918" height="969" alt="Screenshot from 2026-07-08 10-15-30" src="https://github.com/user-attachments/assets/455fb9a7-bb20-4a10-9cb8-48de6f793bdc" />
+
 
 ---
 
@@ -251,26 +253,6 @@ server/
 └── server.js
 
 ```
-
----
-
-# 🔐 Environment Variables
-
-## Backend
-
-```
-
-PORT=
-
-MONGODB_URI=
-
-JWT_SECRET=
-
-GEMINI_API_KEY=
-
-````
-
----
 
 # 🚀 Installation
 
